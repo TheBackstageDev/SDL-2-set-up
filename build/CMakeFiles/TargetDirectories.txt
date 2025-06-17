@@ -1,8 +1,0 @@
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/MYPROJECT.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/CMakeFiles/ALL_BUILD.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/SDL3-shared.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/SDL3_test.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/SDL_uclibc.dir
-C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/ALL_BUILD.dir
