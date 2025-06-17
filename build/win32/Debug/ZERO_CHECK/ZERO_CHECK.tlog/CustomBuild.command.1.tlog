@@ -1,0 +1,10 @@
+^C:\USERS\GABRI\ONEDRIVE\DOCUMENTOS\GITHUB\SDL-2-SET-UP\BUILD\CMAKEFILES\AF88D794D8D5990C70ECCE09444AD586\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up -BC:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/MYPROJECT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

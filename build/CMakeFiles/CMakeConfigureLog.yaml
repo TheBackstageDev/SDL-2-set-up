@@ -1,0 +1,1185 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+      Compila├º├úo de 17/06/2025 15:35:33 iniciada.
+      
+      Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\3.31.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/3.31.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-g61nxq"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-g61nxq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-g61nxq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88159.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:34 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g61nxq\\cmTC_88159.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_88159.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g61nxq\\Debug\\".
+          Criando o diret├│rio "cmTC_88159.dir\\Debug\\cmTC_88159.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_88159.dir\\Debug\\cmTC_88159.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_88159.dir\\Debug\\cmTC_88159.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_88159.dir\\Debug\\\\" /Fd"cmTC_88159.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++20 /Fo"cmTC_88159.dir\\Debug\\\\" /Fd"cmTC_88159.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g61nxq\\Debug\\cmTC_88159.exe" /INCREMENTAL /ILK:"cmTC_88159.dir\\Debug\\cmTC_88159.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-g61nxq/Debug/cmTC_88159.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-g61nxq/Debug/cmTC_88159.lib" /MACHINE:X86  /machine:X86 cmTC_88159.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_88159.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g61nxq\\Debug\\cmTC_88159.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_88159.dir\\Debug\\cmTC_88159.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_88159.dir\\Debug\\cmTC_88159.tlog\\cmTC_88159.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g61nxq\\cmTC_88159.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:9 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "deps/CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+      Compila├º├úo de 17/06/2025 15:35:35 iniciada.
+      
+      Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\3.31.4\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.39
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/3.31.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "deps/CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-gwoutd"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-gwoutd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-gwoutd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fd76c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:35 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwoutd\\cmTC_fd76c.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_fd76c.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwoutd\\Debug\\".
+          Criando o diret├│rio "cmTC_fd76c.dir\\Debug\\cmTC_fd76c.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_fd76c.dir\\Debug\\cmTC_fd76c.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_fd76c.dir\\Debug\\cmTC_fd76c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd76c.dir\\Debug\\\\" /Fd"cmTC_fd76c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd76c.dir\\Debug\\\\" /Fd"cmTC_fd76c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwoutd\\Debug\\cmTC_fd76c.exe" /INCREMENTAL /ILK:"cmTC_fd76c.dir\\Debug\\cmTC_fd76c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-gwoutd/Debug/cmTC_fd76c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-gwoutd/Debug/cmTC_fd76c.lib" /MACHINE:X86  /machine:X86 cmTC_fd76c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_fd76c.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwoutd\\Debug\\cmTC_fd76c.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_fd76c.dir\\Debug\\cmTC_fd76c.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_fd76c.dir\\Debug\\cmTC_fd76c.tlog\\cmTC_fd76c.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gwoutd\\cmTC_fd76c.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "deps/CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "deps/CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "deps/SDL3/cmake/sdlcpu.cmake:93 (try_compile)"
+      - "deps/SDL3/CMakeLists.txt:82 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/deps/SDL3/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1f3c9.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:36 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_1f3c9.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_1f3c9.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\".
+          Criando o diret├│rio "cmTC_1f3c9.dir\\Debug\\cmTC_1f3c9.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_1f3c9.dir\\Debug\\cmTC_1f3c9.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_1f3c9.dir\\Debug\\cmTC_1f3c9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f3c9.dir\\Debug\\\\" /Fd"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1f3c9.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f3c9.dir\\Debug\\\\" /Fd"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1f3c9.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          SDL_detect_arch.c
+        Lib:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\Lib.exe /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1f3c9.lib" /NOLOGO /MACHINE:X86  /machine:X86 cmTC_1f3c9.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_1f3c9.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1f3c9.lib
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_1f3c9.dir\\Debug\\cmTC_1f3c9.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_1f3c9.dir\\Debug\\cmTC_1f3c9.tlog\\cmTC_1f3c9.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\deps\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_1f3c9.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.31
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:673 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-qpswvw"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-qpswvw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-qpswvw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a190.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:36 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\cmTC_0a190.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_0a190.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\Debug\\".
+          Criando o diret├│rio "cmTC_0a190.dir\\Debug\\cmTC_0a190.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_0a190.dir\\Debug\\cmTC_0a190.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0a190.dir\\Debug\\cmTC_0a190.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a190.dir\\Debug\\\\" /Fd"cmTC_0a190.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a190.dir\\Debug\\\\" /Fd"cmTC_0a190.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\src.c"
+          src.c
+        C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\src.c(7,1): warning C4799: fun├º├úo 'ints_add' n├úo possui instru├º├úo EMMS [C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\cmTC_0a190.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\Debug\\cmTC_0a190.exe" /INCREMENTAL /ILK:"cmTC_0a190.dir\\Debug\\cmTC_0a190.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-qpswvw/Debug/cmTC_0a190.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-qpswvw/Debug/cmTC_0a190.lib" /MACHINE:X86  /machine:X86 cmTC_0a190.dir\\Debug\\src.obj
+          cmTC_0a190.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\Debug\\cmTC_0a190.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_0a190.dir\\Debug\\cmTC_0a190.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_0a190.dir\\Debug\\cmTC_0a190.tlog\\cmTC_0a190.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\cmTC_0a190.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+        
+        "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\cmTC_0a190.vcxproj" (destino padr├úo) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\src.c(7,1): warning C4799: fun├º├úo 'ints_add' n├úo possui instru├º├úo EMMS [C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qpswvw\\cmTC_0a190.vcxproj]
+        
+            1 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:694 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-w9q99h"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-w9q99h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-w9q99h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1baf6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:37 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\cmTC_1baf6.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_1baf6.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\Debug\\".
+          Criando o diret├│rio "cmTC_1baf6.dir\\Debug\\cmTC_1baf6.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_1baf6.dir\\Debug\\cmTC_1baf6.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_1baf6.dir\\Debug\\cmTC_1baf6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1baf6.dir\\Debug\\\\" /Fd"cmTC_1baf6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1baf6.dir\\Debug\\\\" /Fd"cmTC_1baf6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\Debug\\cmTC_1baf6.exe" /INCREMENTAL /ILK:"cmTC_1baf6.dir\\Debug\\cmTC_1baf6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-w9q99h/Debug/cmTC_1baf6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-w9q99h/Debug/cmTC_1baf6.lib" /MACHINE:X86  /machine:X86 cmTC_1baf6.dir\\Debug\\src.obj
+          cmTC_1baf6.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\Debug\\cmTC_1baf6.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_1baf6.dir\\Debug\\cmTC_1baf6.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_1baf6.dir\\Debug\\cmTC_1baf6.tlog\\cmTC_1baf6.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w9q99h\\cmTC_1baf6.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:715 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-oyf3wy"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-oyf3wy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-oyf3wy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3f3f6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:37 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\cmTC_3f3f6.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_3f3f6.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\Debug\\".
+          Criando o diret├│rio "cmTC_3f3f6.dir\\Debug\\cmTC_3f3f6.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_3f3f6.dir\\Debug\\cmTC_3f3f6.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_3f3f6.dir\\Debug\\cmTC_3f3f6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f3f6.dir\\Debug\\\\" /Fd"cmTC_3f3f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f3f6.dir\\Debug\\\\" /Fd"cmTC_3f3f6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\Debug\\cmTC_3f3f6.exe" /INCREMENTAL /ILK:"cmTC_3f3f6.dir\\Debug\\cmTC_3f3f6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-oyf3wy/Debug/cmTC_3f3f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-oyf3wy/Debug/cmTC_3f3f6.lib" /MACHINE:X86  /machine:X86 cmTC_3f3f6.dir\\Debug\\src.obj
+          cmTC_3f3f6.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\Debug\\cmTC_3f3f6.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_3f3f6.dir\\Debug\\cmTC_3f3f6.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_3f3f6.dir\\Debug\\cmTC_3f3f6.tlog\\cmTC_3f3f6.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oyf3wy\\cmTC_3f3f6.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:736 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-aw7w7q"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-aw7w7q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-aw7w7q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d051f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:38 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\cmTC_d051f.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_d051f.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\Debug\\".
+          Criando o diret├│rio "cmTC_d051f.dir\\Debug\\cmTC_d051f.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_d051f.dir\\Debug\\cmTC_d051f.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_d051f.dir\\Debug\\cmTC_d051f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d051f.dir\\Debug\\\\" /Fd"cmTC_d051f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d051f.dir\\Debug\\\\" /Fd"cmTC_d051f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\Debug\\cmTC_d051f.exe" /INCREMENTAL /ILK:"cmTC_d051f.dir\\Debug\\cmTC_d051f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-aw7w7q/Debug/cmTC_d051f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-aw7w7q/Debug/cmTC_d051f.lib" /MACHINE:X86  /machine:X86 cmTC_d051f.dir\\Debug\\src.obj
+          cmTC_d051f.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\Debug\\cmTC_d051f.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_d051f.dir\\Debug\\cmTC_d051f.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_d051f.dir\\Debug\\cmTC_d051f.tlog\\cmTC_d051f.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aw7w7q\\cmTC_d051f.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ubc7m2"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ubc7m2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ubc7m2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_32735.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:38 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\cmTC_32735.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_32735.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\Debug\\".
+          Criando o diret├│rio "cmTC_32735.dir\\Debug\\cmTC_32735.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_32735.dir\\Debug\\cmTC_32735.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_32735.dir\\Debug\\cmTC_32735.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32735.dir\\Debug\\\\" /Fd"cmTC_32735.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32735.dir\\Debug\\\\" /Fd"cmTC_32735.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\Debug\\cmTC_32735.exe" /INCREMENTAL /ILK:"cmTC_32735.dir\\Debug\\cmTC_32735.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ubc7m2/Debug/cmTC_32735.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ubc7m2/Debug/cmTC_32735.lib" /MACHINE:X86  /machine:X86 cmTC_32735.dir\\Debug\\src.obj
+          cmTC_32735.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\Debug\\cmTC_32735.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_32735.dir\\Debug\\cmTC_32735.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_32735.dir\\Debug\\cmTC_32735.tlog\\cmTC_32735.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ubc7m2\\cmTC_32735.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:778 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-abuaww"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-abuaww"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-abuaww'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0c2d1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:39 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\cmTC_0c2d1.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_0c2d1.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\Debug\\".
+          Criando o diret├│rio "cmTC_0c2d1.dir\\Debug\\cmTC_0c2d1.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_0c2d1.dir\\Debug\\cmTC_0c2d1.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0c2d1.dir\\Debug\\cmTC_0c2d1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c2d1.dir\\Debug\\\\" /Fd"cmTC_0c2d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c2d1.dir\\Debug\\\\" /Fd"cmTC_0c2d1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\Debug\\cmTC_0c2d1.exe" /INCREMENTAL /ILK:"cmTC_0c2d1.dir\\Debug\\cmTC_0c2d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-abuaww/Debug/cmTC_0c2d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-abuaww/Debug/cmTC_0c2d1.lib" /MACHINE:X86  /machine:X86 cmTC_0c2d1.dir\\Debug\\src.obj
+          cmTC_0c2d1.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\Debug\\cmTC_0c2d1.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_0c2d1.dir\\Debug\\cmTC_0c2d1.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_0c2d1.dir\\Debug\\cmTC_0c2d1.tlog\\cmTC_0c2d1.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-abuaww\\cmTC_0c2d1.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:801 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-668neq"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-668neq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-668neq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c37fa.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:40 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\cmTC_c37fa.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_c37fa.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\Debug\\".
+          Criando o diret├│rio "cmTC_c37fa.dir\\Debug\\cmTC_c37fa.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_c37fa.dir\\Debug\\cmTC_c37fa.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_c37fa.dir\\Debug\\cmTC_c37fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c37fa.dir\\Debug\\\\" /Fd"cmTC_c37fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c37fa.dir\\Debug\\\\" /Fd"cmTC_c37fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\Debug\\cmTC_c37fa.exe" /INCREMENTAL /ILK:"cmTC_c37fa.dir\\Debug\\cmTC_c37fa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-668neq/Debug/cmTC_c37fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-668neq/Debug/cmTC_c37fa.lib" /MACHINE:X86  /machine:X86 cmTC_c37fa.dir\\Debug\\src.obj
+          cmTC_c37fa.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\Debug\\cmTC_c37fa.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_c37fa.dir\\Debug\\cmTC_c37fa.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_c37fa.dir\\Debug\\cmTC_c37fa.tlog\\cmTC_c37fa.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-668neq\\cmTC_c37fa.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:822 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-u2oqel"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-u2oqel"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-u2oqel'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f67f7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:40 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\cmTC_f67f7.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_f67f7.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\Debug\\".
+          Criando o diret├│rio "cmTC_f67f7.dir\\Debug\\cmTC_f67f7.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_f67f7.dir\\Debug\\cmTC_f67f7.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_f67f7.dir\\Debug\\cmTC_f67f7.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f67f7.dir\\Debug\\\\" /Fd"cmTC_f67f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f67f7.dir\\Debug\\\\" /Fd"cmTC_f67f7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\Debug\\cmTC_f67f7.exe" /INCREMENTAL /ILK:"cmTC_f67f7.dir\\Debug\\cmTC_f67f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-u2oqel/Debug/cmTC_f67f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-u2oqel/Debug/cmTC_f67f7.lib" /MACHINE:X86  /machine:X86 cmTC_f67f7.dir\\Debug\\src.obj
+          cmTC_f67f7.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\Debug\\cmTC_f67f7.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_f67f7.dir\\Debug\\cmTC_f67f7.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_f67f7.dir\\Debug\\cmTC_f67f7.tlog\\cmTC_f67f7.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u2oqel\\cmTC_f67f7.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:843 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-s2htyx"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-s2htyx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-s2htyx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12904.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:41 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\cmTC_12904.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_12904.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\Debug\\".
+          Criando o diret├│rio "cmTC_12904.dir\\Debug\\cmTC_12904.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_12904.dir\\Debug\\cmTC_12904.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_12904.dir\\Debug\\cmTC_12904.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12904.dir\\Debug\\\\" /Fd"cmTC_12904.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12904.dir\\Debug\\\\" /Fd"cmTC_12904.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\Debug\\cmTC_12904.exe" /INCREMENTAL /ILK:"cmTC_12904.dir\\Debug\\cmTC_12904.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-s2htyx/Debug/cmTC_12904.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-s2htyx/Debug/cmTC_12904.lib" /MACHINE:X86  /machine:X86 cmTC_12904.dir\\Debug\\src.obj
+          cmTC_12904.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\Debug\\cmTC_12904.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_12904.dir\\Debug\\cmTC_12904.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_12904.dir\\Debug\\cmTC_12904.tlog\\cmTC_12904.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s2htyx\\cmTC_12904.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "deps/SDL3/CMakeLists.txt:986 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bi3k5c"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bi3k5c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bi3k5c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_420d9.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:41 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\cmTC_420d9.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_420d9.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\Debug\\".
+          Criando o diret├│rio "cmTC_420d9.dir\\Debug\\cmTC_420d9.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_420d9.dir\\Debug\\cmTC_420d9.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_420d9.dir\\Debug\\cmTC_420d9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_420d9.dir\\Debug\\\\" /Fd"cmTC_420d9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_420d9.dir\\Debug\\\\" /Fd"cmTC_420d9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\Debug\\cmTC_420d9.exe" /INCREMENTAL /ILK:"cmTC_420d9.dir\\Debug\\cmTC_420d9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bi3k5c/Debug/cmTC_420d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bi3k5c/Debug/cmTC_420d9.lib" /MACHINE:X86  /machine:X86 cmTC_420d9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_420d9.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\Debug\\cmTC_420d9.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_420d9.dir\\Debug\\cmTC_420d9.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_420d9.dir\\Debug\\cmTC_420d9.tlog\\cmTC_420d9.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bi3k5c\\cmTC_420d9.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "deps/SDL3/CMakeLists.txt:1067 (check_symbol_exists)"
+    checks:
+      - "Looking for _copysign"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-f9nczs"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-f9nczs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "LIBC_HAS__COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-f9nczs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f4eef.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:42 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\cmTC_f4eef.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_f4eef.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\Debug\\".
+          Criando o diret├│rio "cmTC_f4eef.dir\\Debug\\cmTC_f4eef.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_f4eef.dir\\Debug\\cmTC_f4eef.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_f4eef.dir\\Debug\\cmTC_f4eef.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4eef.dir\\Debug\\\\" /Fd"cmTC_f4eef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4eef.dir\\Debug\\\\" /Fd"cmTC_f4eef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\Debug\\cmTC_f4eef.exe" /INCREMENTAL /ILK:"cmTC_f4eef.dir\\Debug\\cmTC_f4eef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-f9nczs/Debug/cmTC_f4eef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-f9nczs/Debug/cmTC_f4eef.lib" /MACHINE:X86  /machine:X86 cmTC_f4eef.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_f4eef.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\Debug\\cmTC_f4eef.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_f4eef.dir\\Debug\\cmTC_f4eef.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_f4eef.dir\\Debug\\cmTC_f4eef.tlog\\cmTC_f4eef.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f9nczs\\cmTC_f4eef.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "deps/SDL3/CMakeLists.txt:1067 (check_symbol_exists)"
+    checks:
+      - "Looking for _fseeki64"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ql54du"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ql54du"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "LIBC_HAS__FSEEKI64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ql54du'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_148c6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:42 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\cmTC_148c6.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_148c6.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\Debug\\".
+          Criando o diret├│rio "cmTC_148c6.dir\\Debug\\cmTC_148c6.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_148c6.dir\\Debug\\cmTC_148c6.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_148c6.dir\\Debug\\cmTC_148c6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_148c6.dir\\Debug\\\\" /Fd"cmTC_148c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_148c6.dir\\Debug\\\\" /Fd"cmTC_148c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\Debug\\cmTC_148c6.exe" /INCREMENTAL /ILK:"cmTC_148c6.dir\\Debug\\cmTC_148c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ql54du/Debug/cmTC_148c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-ql54du/Debug/cmTC_148c6.lib" /MACHINE:X86  /machine:X86 cmTC_148c6.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_148c6.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\Debug\\cmTC_148c6.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_148c6.dir\\Debug\\cmTC_148c6.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_148c6.dir\\Debug\\cmTC_148c6.tlog\\cmTC_148c6.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ql54du\\cmTC_148c6.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.38
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:1992 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-iosv2m"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-iosv2m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-iosv2m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fc67b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:43 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\cmTC_fc67b.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_fc67b.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\Debug\\".
+          Criando o diret├│rio "cmTC_fc67b.dir\\Debug\\cmTC_fc67b.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_fc67b.dir\\Debug\\cmTC_fc67b.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_fc67b.dir\\Debug\\cmTC_fc67b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc67b.dir\\Debug\\\\" /Fd"cmTC_fc67b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc67b.dir\\Debug\\\\" /Fd"cmTC_fc67b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\src.c"
+          src.c
+        C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\src.c(4,14): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'gameinput.h': No such file or directory [C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\cmTC_fc67b.vcxproj]
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\cmTC_fc67b.vcxproj" (destinos padr├úo) -- FALHA.
+        
+        FALHA da compila├º├úo.
+        
+        "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\cmTC_fc67b.vcxproj" (destino padr├úo) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\src.c(4,14): error C1083: N├úo ├® poss├¡vel abrir arquivo incluir: 'gameinput.h': No such file or directory [C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iosv2m\\cmTC_fc67b.vcxproj]
+        
+            0 Aviso(s)
+            1 Erro(s)
+        
+        Tempo Decorrido 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "deps/SDL3/CMakeLists.txt:1998 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-5mwweq"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-5mwweq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-5mwweq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0143e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:43 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\cmTC_0143e.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_0143e.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\Debug\\".
+          Criando o diret├│rio "cmTC_0143e.dir\\Debug\\cmTC_0143e.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_0143e.dir\\Debug\\cmTC_0143e.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_0143e.dir\\Debug\\cmTC_0143e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0143e.dir\\Debug\\\\" /Fd"cmTC_0143e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0143e.dir\\Debug\\\\" /Fd"cmTC_0143e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\Debug\\cmTC_0143e.exe" /INCREMENTAL /ILK:"cmTC_0143e.dir\\Debug\\cmTC_0143e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-5mwweq/Debug/cmTC_0143e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-5mwweq/Debug/cmTC_0143e.lib" /MACHINE:X86  /machine:X86 cmTC_0143e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0143e.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\Debug\\cmTC_0143e.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_0143e.dir\\Debug\\cmTC_0143e.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_0143e.dir\\Debug\\cmTC_0143e.tlog\\cmTC_0143e.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5mwweq\\cmTC_0143e.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "deps/SDL3/CMakeLists.txt:2006 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bltkrg"
+      binary: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bltkrg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/deps/SDL3/cmake"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bltkrg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a9085.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.13.15+18b3035f6 para .NET Framework
+        Compila├º├úo de 17/06/2025 15:35:44 iniciada.
+        
+        Projeto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\cmTC_a9085.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_a9085.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\Debug\\".
+          Criando o diret├│rio "cmTC_a9085.dir\\Debug\\cmTC_a9085.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_a9085.dir\\Debug\\cmTC_a9085.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_a9085.dir\\Debug\\cmTC_a9085.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9085.dir\\Debug\\\\" /Fd"cmTC_a9085.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34808 para x86
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9085.dir\\Debug\\\\" /Fd"cmTC_a9085.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\Debug\\cmTC_a9085.exe" /INCREMENTAL /ILK:"cmTC_a9085.dir\\Debug\\cmTC_a9085.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bltkrg/Debug/cmTC_a9085.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build/CMakeFiles/CMakeScratch/TryCompile-bltkrg/Debug/cmTC_a9085.lib" /MACHINE:X86  /machine:X86 cmTC_a9085.dir\\Debug\\src.obj
+          cmTC_a9085.vcxproj -> C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\Debug\\cmTC_a9085.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_a9085.dir\\Debug\\cmTC_a9085.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_a9085.dir\\Debug\\cmTC_a9085.tlog\\cmTC_a9085.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\gabri\\OneDrive\\Documentos\\GitHub\\SDL-2-set-up\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bltkrg\\cmTC_a9085.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.55
+        
+      exitCode: 0
+...

@@ -1,0 +1,708 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-deps-Debug-daa91dd17ee23792cad4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "deps/SDL3",
+					"jsonFile" : "directory-deps.SDL3-Debug-da22278397ebb7a23b19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "deps/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MYPROJECT",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "deps",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-ab757dde739c8dd76fde.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b07ec9e8b6e9530a3d81",
+					"jsonFile" : "target-ALL_BUILD-Debug-8097563259b8847805c6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@850b9555a143659476bc",
+					"jsonFile" : "target-ALL_BUILD-Debug-cb502b9097ea81185ddc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MYPROJECT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MYPROJECT-Debug-9769d673ca2ecbf2db3e.json",
+					"name" : "MYPROJECT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3-shared::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3-shared-Debug-dca46795c2af6970acad.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_test::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3_test-Debug-243e557162977b514b53.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL_uclibc::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL_uclibc-Debug-52b5da3914368c737246.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-cd86c988d46ba598c91a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-deps-Release-daa91dd17ee23792cad4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "deps/SDL3",
+					"jsonFile" : "directory-deps.SDL3-Release-da22278397ebb7a23b19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "deps/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MYPROJECT",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "deps",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-ab757dde739c8dd76fde.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b07ec9e8b6e9530a3d81",
+					"jsonFile" : "target-ALL_BUILD-Release-8097563259b8847805c6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@850b9555a143659476bc",
+					"jsonFile" : "target-ALL_BUILD-Release-cb502b9097ea81185ddc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MYPROJECT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MYPROJECT-Release-a273bfa42530272c545f.json",
+					"name" : "MYPROJECT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3-shared::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3-shared-Release-45b7a131b38ab57f4824.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_test::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3_test-Release-d8d4212634252c2b3f4f.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL_uclibc::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL_uclibc-Release-3b490ee12bc22beb5eee.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-cd86c988d46ba598c91a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-deps-MinSizeRel-daa91dd17ee23792cad4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "deps/SDL3",
+					"jsonFile" : "directory-deps.SDL3-MinSizeRel-da22278397ebb7a23b19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "deps/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MYPROJECT",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "deps",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ab757dde739c8dd76fde.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b07ec9e8b6e9530a3d81",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8097563259b8847805c6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@850b9555a143659476bc",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-cb502b9097ea81185ddc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MYPROJECT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MYPROJECT-MinSizeRel-6210d114986dcb1fbd8f.json",
+					"name" : "MYPROJECT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3-shared::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3-shared-MinSizeRel-76f6f864accab2a05c51.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_test::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3_test-MinSizeRel-9cb183ec2a17dafb6c67.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL_uclibc::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL_uclibc-MinSizeRel-53940963e91c10b1f57a.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-cd86c988d46ba598c91a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-deps-RelWithDebInfo-daa91dd17ee23792cad4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "deps/SDL3",
+					"jsonFile" : "directory-deps.SDL3-RelWithDebInfo-da22278397ebb7a23b19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "deps/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MYPROJECT",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "deps",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ab757dde739c8dd76fde.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@b07ec9e8b6e9530a3d81",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8097563259b8847805c6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@850b9555a143659476bc",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-cb502b9097ea81185ddc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MYPROJECT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MYPROJECT-RelWithDebInfo-a64842f185747f9d2366.json",
+					"name" : "MYPROJECT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3-shared::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3-shared-RelWithDebInfo-bbbf943fe9697bc03e62.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_test::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL3_test-RelWithDebInfo-09c8139808d5b157dc8a.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL_uclibc::@850b9555a143659476bc",
+					"jsonFile" : "target-SDL_uclibc-RelWithDebInfo-bab849a2eb949e74cf46.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-cd86c988d46ba598c91a.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up/build",
+		"source" : "C:/Users/gabri/OneDrive/Documentos/GitHub/SDL-2-set-up"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
